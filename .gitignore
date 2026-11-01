@@ -1,0 +1,27 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+*.tfvars
+!example.tfvars
+
+# Lambda build artifacts
+lambda/*.zip
+
+# AWS credentials
+.aws/
+.env
+.env.*
+
+# Local execution output
+response.json
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
